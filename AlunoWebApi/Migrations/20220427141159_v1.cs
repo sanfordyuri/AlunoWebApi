@@ -12,8 +12,8 @@ namespace AlunoWebApi.Migrations
                 columns: table => new
                 {
                     Id = table.Column<byte[]>(type: "varbinary(16)", nullable: false),
-                    Nome = table.Column<string>(type: "text", nullable: true),
-                    CPF = table.Column<string>(type: "text", nullable: true),
+                    Nome = table.Column<string>(type: "varchar(64)", maxLength: 64, nullable: false),
+                    CPF = table.Column<string>(type: "varchar(14)", maxLength: 14, nullable: false),
                     Nascimento = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>

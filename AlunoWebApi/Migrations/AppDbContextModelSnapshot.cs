@@ -24,13 +24,17 @@ namespace AlunoWebApi.Migrations
                         .HasColumnType("varbinary(16)");
 
                     b.Property<string>("CPF")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("varchar(14)");
 
                     b.Property<DateTime>("Nascimento")
                         .HasColumnType("datetime");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
 
                     b.HasKey("Id");
 

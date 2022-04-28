@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AlunoWebApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220427132349_v1")]
+    [Migration("20220427141159_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,13 +26,17 @@ namespace AlunoWebApi.Migrations
                         .HasColumnType("varbinary(16)");
 
                     b.Property<string>("CPF")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("varchar(14)");
 
                     b.Property<DateTime>("Nascimento")
                         .HasColumnType("datetime");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
 
                     b.HasKey("Id");
 
