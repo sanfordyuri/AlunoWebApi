@@ -11,7 +11,15 @@ namespace AlunoWebApi.Data
 
         }
 
-        public DbSet<Aluno> Alunos { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Endereco>()
+                .HasOne(endereco => endereco.Aluno)
+                .WithOne(aluno => aluno.Endereco)
+                .HasForeignKey<Aluno>(aluno => aluno.idEndereco); 
+        }
 
+        public DbSet<Aluno> Alunos { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
     }
 }

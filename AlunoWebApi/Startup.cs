@@ -27,7 +27,7 @@ namespace AlunoWebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AlunoWebApi", Version = "v1" });
             });
-            services.AddDbContext<AppDbContext>(opts => opts.UseMySQL(Configuration.GetConnectionString("AlunoConnection")));
+            services.AddDbContext<AppDbContext>(opts => opts.UseLazyLoadingProxies().UseMySQL(Configuration.GetConnectionString("AlunoConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

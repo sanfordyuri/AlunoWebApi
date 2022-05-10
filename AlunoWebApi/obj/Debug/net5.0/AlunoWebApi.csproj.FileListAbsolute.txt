@@ -7,6 +7,7 @@ E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AlunoWebApi.runtim
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AlunoWebApi.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AlunoWebApi.pdb
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Castle.Core.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Google.Protobuf.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Humanizer.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\K4os.Compression.LZ4.dll
@@ -15,6 +16,7 @@ E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\K4os.Hash.xxHash.d
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll

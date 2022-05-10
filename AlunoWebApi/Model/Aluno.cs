@@ -23,5 +23,9 @@ namespace AlunoWebApi.Model
         [Required(ErrorMessage = "O campo Nascimento é obrigatório.")]
         public DateTime Nascimento { get; set; }
 
+        public virtual Endereco Endereco { get; set; }
+
+        public Guid idEndereco { get; set; }
+
     }
 }
