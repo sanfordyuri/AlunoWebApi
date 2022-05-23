@@ -6,6 +6,8 @@ E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AlunoWebApi.runtim
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AlunoWebApi.runtimeconfig.dev.json
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AlunoWebApi.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AlunoWebApi.pdb
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AutoMapper.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Castle.Core.dll
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Google.Protobuf.dll

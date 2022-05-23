@@ -2,6 +2,8 @@
 using System.Linq;
 using AlunoWebApi.Data;
 using AlunoWebApi.Model;
+using AlunoWebApi.Model.Dto;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EnderecoWebApi.Controller
@@ -13,15 +15,18 @@ namespace EnderecoWebApi.Controller
     {
 
         private AppDbContext _context;
+        private IMapper _mapper;
 
-        public EnderecoController(AppDbContext _context)
+        public EnderecoController(AppDbContext _context, IMapper mapper)
         {
             this._context = _context;
+            _mapper = mapper;
         }
 
         [HttpPost]
-        public IActionResult AdicionarEndereco([FromBody] Endereco endereco)
+        public IActionResult AdicionarEndereco([FromBody] EnderecoDto enderecoDto)
         {
+            Endereco endereco = _mapper.Map<Endereco>(enderecoDto);
             _context.Enderecos.Add(endereco);
             _context.SaveChanges();
 
