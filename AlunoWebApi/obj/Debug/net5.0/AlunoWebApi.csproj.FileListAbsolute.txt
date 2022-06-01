@@ -49,3 +49,10 @@ E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\obj\Debug\net5.0\refint\AlunoWebApi
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\obj\Debug\net5.0\AlunoWebApi.pdb
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\obj\Debug\net5.0\AlunoWebApi.genruntimeconfig.cache
 E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\obj\Debug\net5.0\ref\AlunoWebApi.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\yuri\projetos\Api\AlunoWebApi\AlunoWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

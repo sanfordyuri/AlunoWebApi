@@ -6,10 +6,6 @@ namespace AlunoWebApi.Model.Dto
 {
     public class EnderecoDto
     {
-        [Key]
-        [Required]
-        public Guid Id { get; set; }
-
         [Required(ErrorMessage = "O campo Numero é obrigatório")]
         public int Numero { get; set; }
 

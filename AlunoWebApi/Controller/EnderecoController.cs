@@ -13,7 +13,6 @@ namespace EnderecoWebApi.Controller
     [Route("endereco")]
     public class EnderecoController : ControllerBase
     {
-
         private AppDbContext _context;
         private IMapper _mapper;
 
@@ -78,6 +77,5 @@ namespace EnderecoWebApi.Controller
             }
             return NotFound(endereco);
         }
-
     }
 }

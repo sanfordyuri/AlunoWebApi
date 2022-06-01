@@ -20,6 +20,7 @@ namespace AlunoWebApi.Data
         }
 
         public DbSet<Aluno> Alunos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
     }
 }

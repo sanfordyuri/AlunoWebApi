@@ -5,8 +5,10 @@ namespace AlunoWebApi.Model.Dto
 {
     public class AlunoDto
     {
+        public AlunoDto() 
+            => Id = Guid.NewGuid();
+
         [Key]
-        [Required]
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "O campo nome é obrigatório.")]

@@ -42,6 +42,7 @@ namespace AlunoWebApi.Controller
         [HttpGet("{id}")]
         public IActionResult RetornarPorId(Guid Id)
         {
+            Console.WriteLine("Id: " + Id);
             Aluno aluno = _context.Alunos.FirstOrDefault(aluno => aluno.Id == Id);
             if (aluno != null)
             {
