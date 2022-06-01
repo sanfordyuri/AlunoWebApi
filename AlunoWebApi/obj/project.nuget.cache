@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5EOstRDHeiDCgmj6/ztF51RnvUEA6M+3R6VjJQQv+g3mQAQu20a4wzmSI8A3JQA15zVhV7Zsxs1jrglFIOKobg==",
+  "dgSpecHash": "Y8SMmJkKnpxHV2bnCoqi+ECuMV423377GUkJK115awRQGQlEzG2PFWWtQPxpbHWDvZEjn9ocGxQo6/Is2UUCwA==",
   "success": true,
   "projectFilePath": "E:\\yuri\\projetos\\Api\\AlunoWebApi\\AlunoWebApi\\AlunoWebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yurisanford\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\yurisanford\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
@@ -93,7 +95,7 @@
     "C:\\Users\\yurisanford\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\yurisanford\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\yurisanford\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\yurisanford\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

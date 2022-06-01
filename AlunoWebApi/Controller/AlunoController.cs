@@ -2,6 +2,8 @@
 using System.Linq;
 using AlunoWebApi.Data;
 using AlunoWebApi.Model;
+using AlunoWebApi.Model.Dto;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AlunoWebApi.Controller
@@ -13,15 +15,18 @@ namespace AlunoWebApi.Controller
     {
 
         private AppDbContext _context;
+        private IMapper _mapper;
 
-        public AlunoController(AppDbContext _context)
+        public AlunoController(AppDbContext _context, IMapper mapper)
         {
             this._context = _context;
+            _mapper = mapper;   
         }
 
         [HttpPost]
-        public IActionResult AdicionarAluno([FromBody] Aluno aluno)
+        public IActionResult AdicionarAluno([FromBody] AlunoDto alunoDto)
         {
+            Aluno aluno = _mapper.Map<Aluno>(alunoDto);
             _context.Alunos.Add(aluno);
             _context.SaveChanges();
 
@@ -34,8 +39,8 @@ namespace AlunoWebApi.Controller
             return Ok(_context.Alunos);
         }
 
-        [HttpGet("{id}")]
-        public IActionResult RetornarPorId(Guid Id)
+        [HttpGet("id")]
+        public IActionResult RetornarPorId([FromQuery] Guid Id)
         {
             Aluno aluno = _context.Alunos.FirstOrDefault(aluno => aluno.Id == Id);
             if (aluno != null)
@@ -45,8 +50,8 @@ namespace AlunoWebApi.Controller
             return NotFound(aluno);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult EditarPorId(Guid Id, [FromBody] Aluno novoAluno)
+        [HttpPut("id")]
+        public IActionResult EditarPorId([FromQuery] Guid Id, [FromBody] Aluno novoAluno)
         {
             Aluno aluno = _context.Alunos.FirstOrDefault(aluno => aluno.Id == Id);
             if (aluno != null)
@@ -60,8 +65,8 @@ namespace AlunoWebApi.Controller
             return NotFound(aluno);
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult ExcluirPorId(Guid Id)
+        [HttpDelete("id")]
+        public IActionResult ExcluirPorId([FromQuery] Guid Id)
         {
             Aluno aluno = _context.Alunos.FirstOrDefault(aluno => aluno.Id == Id);
             if (aluno != null)
